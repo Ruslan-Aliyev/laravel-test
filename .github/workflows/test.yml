@@ -23,10 +23,12 @@ jobs:
           - 5432:5432
 
     env:
-      POSTGRES_HOST: postgres
-      POSTGRES_PORT: 5432
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_USER: postgres
+      DB_CONNECTION: pgsql
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: laravel
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
 
     steps:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
