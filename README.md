@@ -36,4 +36,3 @@ So for the simplest first step, lets just copy a template Laravel `.github/workf
 
 - https://www.reddit.com/r/laravel/comments/nhayzn/setting_up_laravel_testing_with_github_actions/
 - Unit test: finish circle service test. Read: faking, mocking, and stubbing https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing
-- Feature tests: Selenium testing register: cheatsheet https://gist.github.com/aczietlow/7c4834f79a7afd920d8f

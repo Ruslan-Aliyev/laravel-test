@@ -21,6 +21,10 @@ jobs:
           POSTGRES_DB: laravel
         ports:
           - 5432:5432
+      selenium:
+        image: selenium/standalone-chrome:latest
+        ports: 
+          - 4444:4444
 
     env:
       DB_CONNECTION: pgsql
@@ -51,6 +55,8 @@ jobs:
       run: |
         npm install
         npm run build
+    - name: Serve Laravel # Need this for Selenium
+      run: php artisan serve
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       # env:
       #   DB_CONNECTION: sqlite
