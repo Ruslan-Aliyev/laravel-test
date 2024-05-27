@@ -10,18 +10,13 @@ use Illuminate\Support\Str;
  */
 class UserFactory extends Factory
 {
-    /**
-     * Define the model's default state.
-     *
-     * @return array<string, mixed>
-     */
     public function definition()
     {
         return [
             'name' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
-            'password' => bcrypt('secret'), // bcrypt or Hash::make()
+            'password' => bcrypt('password'), // bcrypt() or Hash::make() 
             'remember_token' => Str::random(10),
         ];
     }

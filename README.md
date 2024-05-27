@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=-4RRo6CTUgA
 
 TDD: https://www.youtube.com/watch?v=UHnP7ThzLpE&list=PLdXLsjL7A9k0esh2qNCtUMsGPLUWdLjHp&index=22
 
+Recaps about Database: https://github.com/Ruslan-Aliyev/laravel-test/blob/master/db.md
+
 ## Test with Github Actions
 
 - For Laravel: https://laravel-news.com/laravel-ci-with-github-action
@@ -27,3 +29,11 @@ TDD: https://www.youtube.com/watch?v=UHnP7ThzLpE&list=PLdXLsjL7A9k0esh2qNCtUMsGP
 There are already some example tests out of the box. 
 
 So for the simplest first step, lets just copy a template Laravel `.github/workflows/test.yml` and push to Github and see what happens. The 2 example tests should pass on Github
+
+![](/Illustrations/First_Github_Actions_Test_Results.png)
+
+# Todo
+
+- https://www.reddit.com/r/laravel/comments/nhayzn/setting_up_laravel_testing_with_github_actions/
+- Unit test: finish circle service test. Read: faking, mocking, and stubbing https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing
+- Feature tests: Selenium testing register: cheatsheet https://gist.github.com/aczietlow/7c4834f79a7afd920d8f
