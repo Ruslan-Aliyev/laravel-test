@@ -30,12 +30,45 @@ class SeleniumRegistrationTest extends TestCase
             $caps
         );
 
-        $driver->get("http://127.0.0.1:8000");
+        $driver->get("http://127.0.0.1:8000/register");
 
+        $nameInput = $driver->findElement(WebDriverBy::id("name")); 
+        if($nameInput) 
+        {
+            $nameInput->sendKeys("TestUser");
+        }
 
+        $emailInput = $driver->findElement(WebDriverBy::id("email")); 
+        if($emailInput) 
+        {
+            $emailInput->sendKeys("user@test.com");
+        }
 
+        $passInput = $driver->findElement(WebDriverBy::id("password")); 
+        if($passInput) 
+        {
+            $passInput->sendKeys("password");
+        }
 
-        $this->assertTrue(true); // This is a dummy for now
+        $pass2Input = $driver->findElement(WebDriverBy::id("password_confirmation")); 
+        if($pass2Input) 
+        {
+            $pass2Input->sendKeys("password");
+        }
+
+        $submitButton = $driver->findElement(WebDriverBy::tagName("button")); 
+        if($submitButton) 
+        {
+            $submitButton->submit();
+        }
+
+        sleep(3);
+
+        $title = $driver->findElement(WebDriverBy::tagName("h2"))->getText(); 
+
+        $driver->quit();
+
+        $this->assertEquals('Dashboard', $title);
     }
 }
 
