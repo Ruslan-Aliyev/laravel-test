@@ -47,11 +47,12 @@ jobs:
     #   run: |
     #     mkdir -p database
     #     touch database/database.sqlite
+    - name: NPM install and build
+      run: |
+        npm install
+        npm run build
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       # env:
       #   DB_CONNECTION: sqlite
       #   DB_DATABASE: database/database.sqlite
-      run: |
-        npm install
-        npm run build
-        php artisan test
+      run: php artisan test
