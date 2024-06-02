@@ -39,7 +39,7 @@ So for the simplest first step, lets just copy a template Laravel `.github/workf
 # Todo
 
 - https://www.reddit.com/r/laravel/comments/nhayzn/setting_up_laravel_testing_with_github_actions/
-- Unit test: finish circle service test. Read: faking, mocking, and stubbing https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing
+- Unit test: finish circle service test. Read: faking, mocking, and stubbing https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing , https://laravel.com/docs/9.x/mocking , https://laravel-news.com/laravel-log-fake-2-0 , https://www.youtube.com/watch?v=OaHBgJq33Tk
 
 ---
 
