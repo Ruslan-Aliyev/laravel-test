@@ -126,3 +126,9 @@ PS: If you use `RefreshDatabase`, then the database will be cleared or restored 
 ## More on `RefreshDatabase`
 
 https://www.youtube.com/watch?v=vAx0u26eSgM
+
+---
+
+# Read also
+
+- https://laravel-news.com/feature-tests-powered-by-database-seeders

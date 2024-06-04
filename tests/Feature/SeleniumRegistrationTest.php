@@ -73,3 +73,7 @@ class SeleniumRegistrationTest extends TestCase
 }
 
 // PHP-Selenium cheatsheet: https://gist.github.com/aczietlow/7c4834f79a7afd920d8f
+
+// See also:
+// https://github.com/Modelizer/Laravel-Selenium
+// https://github.com/jhoopes/laravel-selenium-driver

@@ -10,9 +10,12 @@ Laravel's test is based on top of PhpUnit. If you only use PhpUnit, you wont be 
 
 Recap PhpUnit: https://www.youtube.com/watch?v=9-X_b_fxmRM
 
-## Full tutorials
+## Tutorials
 
-https://www.youtube.com/watch?v=-4RRo6CTUgA
+- https://www.youtube.com/watch?v=-4RRo6CTUgA
+- https://laravel-news.com/how-to-start-testing
+- Laravel & Github Actions: https://www.youtube.com/watch?v=xg30pxmGDMw
+- https://christoph-rumpel.com/2023/3/everything-you-can-test-in-your-laravel-application
 
 ## Easy start
 
@@ -36,3 +39,11 @@ So for the simplest first step, lets just copy a template Laravel `.github/workf
 
 - https://www.reddit.com/r/laravel/comments/nhayzn/setting_up_laravel_testing_with_github_actions/
 - Unit test: finish circle service test. Read: faking, mocking, and stubbing https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing
+
+---
+
+# Pest
+
+- https://laravel-news.com/testing-json-api-endpoints-with-pestphp
+- https://www.youtube.com/watch?v=c7k8YBFfdLU
+- https://laravel-news.com/pest-php-ray
