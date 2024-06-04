@@ -3,6 +3,7 @@
 ## Theory
 
 - https://laravel.com/docs/11.x/database-testing
+- https://www.nicesnippets.com/blog/laravel-8-factory-example-tutorial
 - https://www.youtube.com/watch?v=MHBDUJ51Pqs
 
 Create seeder: `php artisan make:seeder VerbXxxsSeeder`
